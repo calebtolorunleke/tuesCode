@@ -1,0 +1,65 @@
+a:link{
+    color: red;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: blue;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li:nth-child(odd){
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+#pizza:hover{
+    opacity: 0.7;
+}
+
+#hello{
+    position: relative;
+
+}
+
+#parent{
+    border: 2px solid blue;
+    color: blue;
+    padding: 20px;
+}
+
+#child{
+    border: 2px dashed red;
+    padding: 20px;
+    background-color: rosybrown;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+#search{
+    position: relative;
+    margin: 20px;
+}
+
+#search-icon{
+    position: absolute;
+    left: 150px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: red;
+    border: none;
+    padding: 16px;text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
